@@ -33,6 +33,7 @@ img{
 
 .convite h1:hover{
     text-shadow: 1px 1px 20px rgb(242, 33, 33);
+    transform: scale(1.2);
 }
 
 .convite h2{
@@ -110,6 +111,28 @@ footer{
     color: white;
 }
 
+@media(max-width: 425px){
+
+    .convite h1, .convite h2, #arrow, #about p{
+        font-size: 1.2rem;
+    }
+    footer{
+        font-size: 10px;
+        margin-top: 10%;
+    }
+}
+
+@media(max-width: 375px){
+
+    .convite h1, .convite h2, #arrow, #about p{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 10px;
+        margin-top: 15%;
+    }
+}
+
 @media(max-width: 320px){
 
     .convite h1, .convite h2, #arrow, #about p{
@@ -118,8 +141,5 @@ footer{
     footer{
         font-size: 10px;
         margin-top: 10%;
-    }
-    img{
-        width: 100%;
     }
 }
