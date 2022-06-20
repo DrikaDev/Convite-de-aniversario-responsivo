@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    
+}
+
+.convite h1{
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-top: 45%;
+    width: 50%;
+    float: right;
+    font-size: 4rem;
+    text-shadow: 5px 5px 20px rgb(10, 10, 10);
+    transition: 1s all;
+}
+
+.convite h1:hover{
+    text-shadow: 1px 1px 20px rgb(242, 33, 33);
+}
+
+.convite h2{
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    width: 50%;
+    float: right;
+    font-size: 2rem;
+    text-shadow: 5px 5px 20px rgb(10, 10, 10);
+    transition: 1s all;
+}
+
+.convite h2:hover{
+    text-shadow: 1px 1px 20px rgb(241, 249, 19);
+    transform: scale(1.2);
+}
+
+#arrow{
+    margin-left: 48%;
+    float: left;
+    font-size: 4rem;
+    cursor: pointer;
+    position: relative;
+}
+
+#animation{
+   transition: 300ms;
+   animation-name: piscar;
+   animation-duration: 1s;
+   animation-timing-function: steps(3, start) ;
+   animation-delay: 1s;
+   animation-iteration-count: infinite; 
+}
+
+@keyframes piscar{
+    to{
+        visibility: hidden;
+    }
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+}
+
+#about p{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: right;
+    font-size: 3rem;
+    object-fit: contain;
+}
+
+strong{
+    color: red;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    float: right;
+    width: 100%;
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+}
+
+@media(max-width: 320px){
+
+    .convite h1, .convite h2, #arrow, #about p{
+        font-size: 0.9rem;
+    }
+    footer{
+        font-size: 10px;
+        margin-top: 10%;
+    }
+    img{
+        width: 100%;
+    }
+}
