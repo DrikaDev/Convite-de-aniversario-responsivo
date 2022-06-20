@@ -111,6 +111,17 @@ footer{
     color: white;
 }
 
+@media(max-width: 768px){
+
+    .convite h1, .convite h2, #arrow, #about p{
+        font-size: 2rem;
+    }
+    footer{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+}
+
 @media(max-width: 425px){
 
     .convite h1, .convite h2, #arrow, #about p{
