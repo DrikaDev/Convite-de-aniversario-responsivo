@@ -1,6 +1,6 @@
 # Convite.aniversario
 
-Convite de aniversário do meu filho que criei para treinar um pouco de Hhtml, CSS e JavaScript. 💻✨
+Convite de aniversário do meu filho que criei para treinar um pouco de Hhtml, CSS e JavaScript. 💻✨<br>
 Está com responsividade para enviar aos convidados abrirem pelo celular 😁
 
 <h2> Linguagens utilizadas: </h2>
