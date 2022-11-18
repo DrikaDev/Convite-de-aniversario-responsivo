@@ -1,8 +1,10 @@
 # Convite de aniversario responsivo!
 
-Este projetinho é um convite de aniversário do niver do meu filho.\
+Este projetinho é um convite de aniversário que fiz pro niver do meu filho.\
 Criei ele com responsividade para enviar aos convidados abrirem pelo celular! 😁\
 Foi uma ótima oportunidade para treinar Html, CSS e JavaScript. 💻✨
+
+![Convite Mobile First](https://user-images.githubusercontent.com/102387476/202598746-1a885a4d-4bbe-41bb-8442-90e092ea8b09.jpg)
 
 <h2> Linguagens utilizadas: </h2>
 
