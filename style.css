@@ -33,7 +33,7 @@ header{
     width: 100%;
     text-align: right;
     padding-right: .5rem;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 main{
@@ -95,25 +95,27 @@ footer{
 @media screen and (min-width: 780px) {
     body{
         background-position: top;
-        height: 300vh;
+        background-size: 70%;
+        height: 176vh;
     }
     
     header{
-        height: 36rem;
+        height: 28rem;
     }
 
     .convite h1{
-        padding-right: 9rem;
-        font-size: 4rem;
+        padding-right: 20rem;
+        font-size: 3rem;
     }
 
     .convite h2{
-        padding-right: 9rem;
-        font-size: 2rem;
+        padding-right: 22rem;
+        font-size: 1rem;
     }
 
     main{
-        height: 70rem;
+        height: 52rem;
+        margin-top: 2rem;
     }
 
     #arrow{
@@ -121,13 +123,12 @@ footer{
     }
 
     #about p{
-        width: 60%;
-        line-height: 5rem;
-        font-size: 3rem;
+        width: 40%;
+        line-height: 3.5rem;
+        font-size: 2rem;
     }
 
     footer{
         font-size: 1rem;
-        margin-top: 5rem;
     }
 }
