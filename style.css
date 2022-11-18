@@ -100,12 +100,12 @@ footer{
     }
     
     header{
-        height: 28rem;
+        height: 25rem;
     }
 
     .convite h1{
         padding-right: 20rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .convite h2{
@@ -114,7 +114,7 @@ footer{
     }
 
     main{
-        height: 52rem;
+        height: 46rem;
         margin-top: 2rem;
     }
 
@@ -124,7 +124,7 @@ footer{
 
     #about p{
         width: 40%;
-        line-height: 3.5rem;
+        line-height: 3rem;
         font-size: 2rem;
     }
 
