@@ -1,7 +1,8 @@
-# Convite.aniversario
+# Convite de aniversario responsivo!
 
-Convite de aniversário do meu filho que criei para treinar um pouco de Html, CSS e JavaScript. 💻✨<br>
-Está com responsividade para enviar aos convidados abrirem pelo celular 😁
+Este projetinho é um convite de aniversário do niver do meu filho.\
+Criei ele com responsividade para enviar aos convidados abrirem pelo celular! 😁\
+Foi uma ótima oportunidade para treinar Html, CSS e JavaScript. 💻✨
 
 <h2> Linguagens utilizadas: </h2>
 
