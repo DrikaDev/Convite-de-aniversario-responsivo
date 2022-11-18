@@ -23,29 +23,10 @@ header{
 }
 
 .convite h1{
-<<<<<<< HEAD
     width: 100%;
     text-align: right;
     padding-right: 1rem;
     font-size: 1.4rem;
-=======
-    position: relative;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    margin-top: 45%;
-    width: 50%;
-    float: right;
-    font-size: 4rem;
-    text-shadow: 5px 5px 20px rgb(10, 10, 10);
-    transition: 1s all;
-}
-
-.convite h1:hover{
-    text-shadow: 1px 1px 20px rgb(242, 33, 33);
-    transform: scale(1.2);
->>>>>>> 0026ac2c84244efd6b2ae7d59ac619acab65a651
 }
 
 .convite h2{
@@ -111,50 +92,10 @@ footer{
     margin-top: 2rem;
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 780px) {
     body{
         background-position: top;
         height: 300vh;
-=======
-@media(max-width: 768px){
-
-    .convite h1, .convite h2, #arrow, #about p{
-        font-size: 2rem;
-    }
-    footer{
-        font-size: 20px;
-        margin-top: 20%;
-    }
-}
-
-@media(max-width: 425px){
-
-    .convite h1, .convite h2, #arrow, #about p{
-        font-size: 1.2rem;
-    }
-    footer{
-        font-size: 10px;
-        margin-top: 10%;
-    }
-}
-
-@media(max-width: 375px){
-
-    .convite h1, .convite h2, #arrow, #about p{
-        font-size: 1rem;
-    }
-    footer{
-        font-size: 10px;
-        margin-top: 15%;
-    }
-}
-
-@media(max-width: 320px){
-
-    .convite h1, .convite h2, #arrow, #about p{
-        font-size: 0.9rem;
->>>>>>> 0026ac2c84244efd6b2ae7d59ac619acab65a651
     }
     
     header{
@@ -189,8 +130,4 @@ footer{
         font-size: 1rem;
         margin-top: 5rem;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 0026ac2c84244efd6b2ae7d59ac619acab65a651
